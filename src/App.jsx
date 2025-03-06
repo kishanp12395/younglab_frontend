@@ -7,13 +7,13 @@ import NotFound404 from './pages/NotFound404';
 const App = () => {
   return (
     <Router>
-      <div>
+      
         <Routes>
           <Route path="/" element={<UserSearch />} />
           <Route path="/add" element={<AddUser />} />
           <Route path="*" element={<NotFound404/>} />
         </Routes>
-      </div>
+      
     </Router>
   );
 };
