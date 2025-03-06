@@ -11,7 +11,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<UserSearch />} />
           <Route path="/add" element={<AddUser />} />
-          <Route path="/*" element={<NotFound404/>} />
+          <Route path="*" element={<NotFound404/>} />
         </Routes>
       </div>
     </Router>
